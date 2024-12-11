@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xen Certificate - Hack The Box</title>
+    <style>
+        /* Global styling reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Background and body styling */
+        body {
+            background-color: #121212;
+            color: #e0e0e0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        /* Main container styling */
+        .container {
+            width: 90%;
+            max-width: 800px;
+            background: linear-gradient(145deg, #1a1a1a, #2b2b2b);
+            border-radius: 10px;
+            padding: 25px;
+            box-shadow: 0px 0px 15px rgba(0, 255, 128, 0.4);
+            border: 1px solid #0aff99;
+            text-align: center;
+        }
+
+        /* Heading styling */
+        h1 {
+            font-size: 2.5rem;
+            color: #0aff99;
+            margin-bottom: 15px;
+            text-shadow: 0 0 8px #0aff99;
+        }
+
+        p.intro {
+            font-size: 1.1rem;
+            color: #a0a0a0;
+            margin-bottom: 20px;
+        }
+
+        /* PDF iframe styling */
+        .pdf-frame {
+            width: 100%;
+            height: 500px;
+            border: 2px solid #0aff99;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 255, 128, 0.2);
+        }
+
+        /* Download button */
+        .download-btn {
+            padding: 12px 25px;
+            background-color: #0aff99;
+            color: #121212;
+            font-weight: bold;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: background 0.3s;
+        }
+        .download-btn:hover {
+            background-color: #00cc7a;
+            color: #ffffff;
+        }
+
+        /* Experience and details styling */
+        .experience {
+            margin-top: 25px;
+            padding: 20px;
+            background: #1f1f1f;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 255, 128, 0.2);
+            text-align: left;
+        }
+        
+        .experience h2 {
+            font-size: 1.8rem;
+            color: #0aff99;
+            margin-bottom: 15px;
+        }
+
+        .experience p {
+            font-size: 1rem;
+            color: #c0c0c0;
+            line-height: 1.7;
+            margin-bottom: 15px;
+        }
+
+        /* Verification details styling */
+        .verification {
+            margin-top: 20px;
+            padding: 15px;
+            background: #1a1a1a;
+            border-left: 3px solid #0aff99;
+            border-radius: 5px;
+        }
+
+        .verification a {
+            color: #0aff99;
+            text-decoration: none;
+        }
+        .verification a:hover {
+            color: #00cc7a;
+        }
+
+        .footer {
+            margin-top: 40px;
+            color: #555;
+            font-size: 0.9rem;
+        }
+
+        .footer a {
+            color: #0aff99;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            color: #00cc7a;
+        }
+        ul{
+            margin-top: 20px;
+        }
+        ul li{
+            list-style-type: none;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.8rem;
+            }
+            p.intro {
+                font-size: 1rem;
+            }
+            .pdf-frame {
+                height: 350px;
+            }
+            .download-btn {
+                font-size: 0.9rem;
+                padding: 10px 20px;
+            }
+            .experience h2 {
+                font-size: 1.5rem;
+            }
+            .experience p {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1> Xen Certificate</h1>
+        <p class="intro">Proudly demonstrating skills in cybersecurity, verified by Hack The Box.</p>
+        
+        <!-- PDF Embed -->
+        <iframe src="Xen.pdf" class="pdf-frame"></iframe>
+        
+        <!-- Download Button -->
+        <a href="Xen.pdf" download class="download-btn">Download PDF</a>
+
+        <!-- Experience Section -->
+        <div class="experience">
+            <h2>Just completed the Hack The Box Mini Pro Labs: Xen! 🚀</h2>
+            <p>This lab gave me a deeper understanding of attacking enterprise networks and mastering essential skills in:</p>
+            <pre>
+                ✅ Enumeration 
+                ✅ Lateral Movement 
+                ✅ Privilege Escalation 
+                ✅ Pivoting 
+                ✅ Phishing techniques 
+                ✅ Situational awareness 
+                ✅ Active Directory enumeration and exploitation
+            </pre>
+                
+<p>Always striving to improve and tackle new challenges! 🔥</p>                
+        </div>
+
+        <!-- Verification Section -->
+        <div class="verification">
+            <p>To verify this certificate, please visit the <a href="https://www.hackthebox.com/certificates" target="_blank">Hack The Box Certificate Verification</a> page and enter the following details:</p>
+            <ul>
+                <li><strong>Full Name:</strong> KARIM BENKHIRA</li>
+                <li><strong>Certificate Number:</strong>HTBCERT-32CE66909C</li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p>Verify on <a href="https://www.hackthebox.com/certificates/">Hack The Box</a> | © 2024 Xen Certification</p>
+        </div>
+    </div>
+
+</body>
+</html>
